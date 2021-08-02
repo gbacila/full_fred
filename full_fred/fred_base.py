@@ -6,7 +6,7 @@ import os
 class FredBase:
     def __init__(
         self,
-        api_key_file: str = None,
+        api_key_file: str = "",
     ):
         """
         FredBase defines methods common to Categories, Releases,
